@@ -1,0 +1,18 @@
+###
+POST http://localhost:3000/user/registrar
+Content-Type: application/json
+
+{
+    "name": "Ricardo",
+    "email": "ricardo2@ricardo2.com",
+    "password":"123456"
+}
+
+###
+POST http://localhost:3000/user/login
+Content-Type: application/json
+
+{
+    "email":"ricardo2@ricardo2.com",
+    "password":"123456"
+}

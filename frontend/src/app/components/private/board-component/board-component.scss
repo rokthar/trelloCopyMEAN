@@ -1,0 +1,16 @@
+.board{
+    padding: 2%;
+    width: 90%;
+    height: 200px;
+    border-radius: 17px;
+    background: linear-gradient(145deg, #8abea5, #74a08b);
+    box-shadow:  14px 14px 17px #6e9783,
+                -14px -14px 17px #94cdb1;
+    a{
+        cursor: pointer;
+    }  
+    h2 {
+        color: #fafafa;
+        text-align: center;
+    }
+}

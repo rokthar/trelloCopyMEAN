@@ -1,0 +1,14 @@
+<div class="p-grid column">
+    <h1>Lista de Tareas</h1>
+    <div class="listaColumnas">
+        <div class="p-col-12 check">
+            <app-task-component></app-task-component>
+        </div>
+        <div class="p-col-12 check">
+            <app-task-component></app-task-component>
+        </div>
+        <div class="p-col-12 inputTask">
+            <input type="text" name="mewTask" id="mewTask" (keypress)="agregarTask($event)" placeholder="Añada una nueva tarea">
+        </div>
+    </div>
+</div>

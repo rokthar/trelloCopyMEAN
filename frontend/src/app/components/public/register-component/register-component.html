@@ -1,0 +1,28 @@
+<div class="card">
+    <h5>REGISTRATE</h5>
+    <div class="p-field p-grid">
+        <label for="nickname" class="p-col-fixed" style="width:100px">Nickname</label>
+        <div class="p-col">
+            <input id="nickname" type="text" pInputText [(ngModel)]="nickname"> 
+        </div>
+    </div>
+    <div class="p-field p-grid">
+        <label for="email" class="p-col-fixed" style="width:100px">Email</label>
+        <div class="p-col">
+            <input id="email" type="email" pInputText [(ngModel)]="email"> 
+        </div>
+    </div>
+    <div class="p-field p-grid">
+        <label for="password" class="p-col-fixed" style="width:100px">Password</label>
+        <div class="p-col">
+            <input type="password" name="password" id="password" pInputText [(ngModel)]="password">
+        </div>
+    </div>
+    <div class="p-field p-grid">
+        <label for="password-repeat" class="p-col-fixed" style="width:100px">Repeat Password</label>
+        <div class="p-col">
+            <input type="password" name="password" id="password-repeat" pInputText [(ngModel)]="repeat_password">
+        </div>
+    </div>
+    <button pButton type="button" (click)="registrar_usuario()" label="Registrarse"></button>
+</div>

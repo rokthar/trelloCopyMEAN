@@ -1,0 +1,14 @@
+###
+GET http://localhost:3000/column/listar/60c2cf6afbe70d4194c1d1ea
+
+###
+GET http://localhost:3000/column/listar
+
+###
+POST http://localhost:3000/column/crear
+Content-Type: application/json
+
+{
+    "name": "TestBoard3",
+    "board": "ssssss"
+}

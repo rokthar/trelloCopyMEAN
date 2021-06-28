@@ -1,0 +1,25 @@
+###
+GET http://localhost:3000/board/listar
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmljYXJkbyIsImlkIjoiNjBjMzg3ZTg4ZTdhNDgyZGQ0YjdiNWIzIiwiaWF0IjoxNjIzNDQxNTE2fQ.dUqDCGA1or4a4EP-tjnD3nPMMnMByTvmVyQ6HVLW_zU
+
+###
+POST http://localhost:3000/board/crear
+Content-Type: application/json
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmljYXJkbyIsImlkIjoiNjBjMzg3ZTg4ZTdhNDgyZGQ0YjdiNWIzIiwiaWF0IjoxNjIzNDQxNTE2fQ.dUqDCGA1or4a4EP-tjnD3nPMMnMByTvmVyQ6HVLW_zU
+
+{
+    "name": "TestBoard2"
+}
+
+###
+POST http://localhost:3000/board/editar/60c2ccbcbbe56a35082d72dd
+Content-Type: application/json
+
+{
+    "name": "TestBoardEdit",
+    "user": "Ricardo"
+}
+
+###
+POST http://localhost:3000/board/borrar/60c2cd6ebdcafe035c7f24d4
+Content-Type: application/json
